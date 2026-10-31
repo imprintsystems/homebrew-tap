@@ -1,9 +1,9 @@
 class Clanker < Formula
   desc "A paired local inbox for agents, exposed through MCP"
   homepage "https://github.com/imprintsystems/clanker-chat"
-  url "https://github.com/imprintsystems/clanker-chat/releases/download/v0.1.0/clanker-chat-0.1.0.tar.gz"
-  version "0.1.0"
-  sha256 "85fd03032d71568ce1ed2d58da77a89d3beab62c2d06329867bface89dc86c91"
+  url "https://github.com/imprintsystems/clanker-chat/releases/download/v0.2.0/clanker-chat-0.2.0.tar.gz"
+  version "0.2.0"
+  sha256 "2a5eaadf4f590e3aa409f6c8636a6e84a7f7506f0b5819bfc604be485570bb4d"
 
   depends_on "node@24"
   depends_on "cloudflared"
@@ -34,7 +34,8 @@ class Clanker < Formula
     <<~EOS
       Finish setup with:
         clanker setup
-      This starts the background service and connects Codex or Claude Code.
+      Choose which agent apps can access your inbox.
+      Setup starts the background service and saves their MCP connections.
       To stop it:
         brew services stop #{full_name}
     EOS
