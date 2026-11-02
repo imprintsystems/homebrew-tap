@@ -1,9 +1,9 @@
 class Clanker < Formula
   desc "A paired local inbox for agents, exposed through MCP"
   homepage "https://github.com/imprintsystems/clanker-chat"
-  url "https://github.com/imprintsystems/clanker-chat/releases/download/v0.3.1/clanker-chat-0.3.1.tar.gz"
-  version "0.3.1"
-  sha256 "f22979dca2e457421318b73b19a2ce40412bba47a4b47d23f11e22158460330a"
+  url "https://github.com/imprintsystems/clanker-chat/releases/download/v0.4.0/clanker-chat-0.4.0.tar.gz"
+  version "0.4.0"
+  sha256 "c11ece966a0521bc8ba5b877158eef8cb453c07c4eab988f1115a7aa4226ae17"
 
   depends_on "node@24"
   depends_on "cloudflared"
